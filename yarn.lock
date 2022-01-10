@@ -133,6 +133,17 @@
     "@angular-devkit/core" "11.2.17"
     "rxjs" "6.6.3"
 
+"@angular-devkit/core@^11.2.17", "@angular-devkit/core@11.2.17":
+  "integrity" "sha512-ytIgRbzObqUhlGBVDOrJ+DGntFecQZGSFa/Tm5AtlNoi+To3a5jmTLUapJfbX+3pblFYQ6R6kfyjt1c7NCdinQ=="
+  "resolved" "https://registry.npmjs.org/@angular-devkit/core/-/core-11.2.17.tgz"
+  "version" "11.2.17"
+  dependencies:
+    "ajv" "6.12.6"
+    "fast-json-stable-stringify" "2.1.0"
+    "magic-string" "0.25.7"
+    "rxjs" "6.6.3"
+    "source-map" "0.7.3"
+
 "@angular-devkit/core@10.2.1":
   "integrity" "sha512-dzlF9Gl7KNt9sPYT2HYq6ySZYwKzkyYR5mrBj3DZOD0OQsoc21LvLkWAHNSL2iYGdHJQS1oJDNs8iRYxYIOY3w=="
   "resolved" "https://registry.npmjs.org/@angular-devkit/core/-/core-10.2.1.tgz"
@@ -150,17 +161,6 @@
   "version" "11.0.0-next.5"
   dependencies:
     "ajv" "6.12.5"
-    "fast-json-stable-stringify" "2.1.0"
-    "magic-string" "0.25.7"
-    "rxjs" "6.6.3"
-    "source-map" "0.7.3"
-
-"@angular-devkit/core@11.2.17":
-  "integrity" "sha512-ytIgRbzObqUhlGBVDOrJ+DGntFecQZGSFa/Tm5AtlNoi+To3a5jmTLUapJfbX+3pblFYQ6R6kfyjt1c7NCdinQ=="
-  "resolved" "https://registry.npmjs.org/@angular-devkit/core/-/core-11.2.17.tgz"
-  "version" "11.2.17"
-  dependencies:
-    "ajv" "6.12.6"
     "fast-json-stable-stringify" "2.1.0"
     "magic-string" "0.25.7"
     "rxjs" "6.6.3"
