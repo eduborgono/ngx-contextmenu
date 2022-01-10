@@ -20,15 +20,15 @@ import { ChildTwoComponent } from './child2.component';
       // useBootstrap4: true,
     }),
     RouterModule.forRoot([
-      {
+    {
         path: 'two',
         component: ChildTwoComponent
-      },
-      {
+    },
+    {
         path: '**',
         component: ChildOneComponent
-      }
-    ])
+    }
+], { relativeLinkResolution: 'legacy' })
   ],
   providers: [
     /* TODO: Providers go here */
